@@ -1,0 +1,142 @@
+/* reset */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+/*estilos de main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2{
+    margin: 1rem;
+}
+
+main h2 span {
+    display: block;
+}
+
+main .boton{
+    background-color: #51b0df;
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem 0.7rem 1.2rem;
+    color: whitesmoke;
+    box-shadow: 3px 3px 10px black;
+}
+
+main img {
+    width: 60%;
+}
+
+/* estilos de section */
+
+section {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+
+/* pantallas de tablet */
+
+@media screen and (min-width:600px){
+   /* estilos de header para esta version de pantalla*/
+   header{
+        display: block;
+        display: flex;
+
+   }
+
+   header nav ul{
+    display: flex;
+    list-style: none;
+   }
+}
+
+
+
+@media screen and (min-width:1024px){
+ /* estilos de main*/
+    main{
+        width: 100%;
+        display: grid;
+        grid-template-columns: ;
+        grid-template-areas: ;
+
+        grid-template-areas: 
+        "p img"
+        "h2 img"
+        "p-dos img"
+        "boton img";
+        justify-content: center;
+        justify-items: center;
+  } 
+} 
+
+  main h2{
+    grid-area: h2;
+  }
+
+  main img{
+    grid-area: img;
+  }
+
+  main .p-dos{
+    grid-area: p-dos;
+    width: 70%;
+  }
+
+  main boton img{
+    grid-area: boton img;
+  }
+
+
+  /* estilo de footer */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1 rem = 16px 
+   2  rem = 32px
+    1.5 = 24px */
+
+
+/* em = 16px
+*/
